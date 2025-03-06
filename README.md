@@ -5,7 +5,7 @@ A 2.5D Python "backrooms" style horror game made using raycasting techniques
 
 ---
 
-This mini project has been archived long ago since its "completion" then. I'm only uploading it to give this game a place to rest and be showcased. You are welcome to fork this and make the changes you see fit!
+This mini project has been archived long ago since its "completion" then. I'm only uploading it now to give this game a place to rest and be showcased. You are welcome to fork this and make the changes you see fit!
 
 ---
 
