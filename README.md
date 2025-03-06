@@ -5,6 +5,10 @@ A 2.5D Python "backrooms" style horror game made using raycasting techniques
 
 ---
 
+This mini project has been archived long ago since its "completion" then. You are welcome to fork this and make the changes you see fit!
+
+---
+
 ## Installation
 You need the following:
   - PyGame library
