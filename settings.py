@@ -1,0 +1,57 @@
+import math
+
+#Game Settings
+
+aspr16_9 = input("Is your display 16:9? (y or n): ")
+if aspr16_9 == "y":
+    RES = WIDTH, HEIGHT = 1600, 900
+else:
+    RES = WIDTH, HEIGHT = 1680, 1050
+
+HALF_WIDTH = WIDTH // 2
+HALF_HEIGHT = HEIGHT // 2
+FPS = 0
+
+AUDIO = True
+ENEMY_SPAWN = True 
+DEBUG = False
+TOPDOWN = False
+
+#Player Settings
+PLAYER_POS = 1.5, 16.5 # mini map
+PLAYER_ANGLE = 0
+PLAYER_SPEED = 0.004
+PLAYER_ROT_SPEED = 0.002
+PLAYER_SIZE_SCALE = 60
+
+MOUSE_SENSITIVITY = 0.0003
+MOUSE_MAX_REL = 30
+MOUSE_BORDER_LEFT = 100
+MOUSE_BORDER_RIGHT = WIDTH - MOUSE_BORDER_LEFT
+
+#Enemy Settings
+ENEMEY_POS = 33.5, 15.5
+ENEMY_SPEED = 0.0275
+
+#Colors
+CEILING_COLOR = "#908643"
+FLOOR_COLOR = "#a19258"
+
+#Raycast Settings
+FOV = math.pi / 3
+HALF_FOV = FOV / 2
+NUM_RAYS = WIDTH // 2
+HALF_NUM_RAYS = NUM_RAYS / 2
+DELTA_ANGLE = FOV / NUM_RAYS # Change between each rays angle in radians
+MAX_DEPTH = 34
+
+SCREEN_DIST = HALF_WIDTH / math.tan(HALF_FOV)
+SCALE = WIDTH // NUM_RAYS
+
+TEXTURE_SIZE = 256
+HALF_TEXTURE_SIZE = TEXTURE_SIZE // 2
+
+#General
+FONT_SIZE = 48
+FONT_COLOR = "#7f3233"
+FONT = "resources/font/VCR_OSD_MONO_1.001.ttf"
